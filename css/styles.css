@@ -180,9 +180,9 @@ h1 {
     margin: 1rem;
 }
 
-.left-side img:hover {
+/* .left-side img:hover {
     opacity: 0.8;
-}
+} */
 
 h1:hover {
     opacity: 0.8;
