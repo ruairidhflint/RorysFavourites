@@ -73,7 +73,7 @@ nav {
     font-size: 2.5rem;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     /* border: 1px red solid; */
     padding-bottom: 2rem;
     margin: 1rem 1.5rem 5rem 1.5rem;
