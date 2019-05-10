@@ -107,7 +107,7 @@ h1 {
     align-items: center;
     margin-top: 5rem;
     margin-bottom: 4rem;
-    /* border: 1px solid red; */
+    /* border: 1px solid blue; */
 }
 
 p {
@@ -194,4 +194,8 @@ p {
   .container img {
       border-radius:50%;
       filter: grayscale();
+  }
+
+  .image-links a {
+      
   }
