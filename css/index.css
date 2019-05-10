@@ -135,7 +135,7 @@ p {
 @media (max-width: 500px){
     .header{
         flex-direction: column-reverse;
-        border: 1px solid red;
+        
     }
 
     .right-side, .left-side {
@@ -177,6 +177,7 @@ p {
   
   .container:hover .overlay {
     opacity: 0.7;
+    transition: .5s ease;
   }
   
   .text {
@@ -196,6 +197,16 @@ p {
       filter: grayscale();
   }
 
-  .image-links a {
-      
+  @media (max-width: 500px){
+      .image-links{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .container{
+          width: 60%;
+          margin-bottom: 2rem;
+      }
   }
+  
