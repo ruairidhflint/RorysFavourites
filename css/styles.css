@@ -193,3 +193,26 @@ img {
     filter: grayscale();
     
 }
+
+footer {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+    
+}
+
+
+.contact1 footer{
+    position: fixed;
+    bottom: 0%;
+    left: 40%;
+}
+
+
+@media (max-width: 500px){
+    footer{
+    left: 0;
+    position: static;
+    }
+}
